@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">StarWars</string>
+    <string name="app_name">Star Wars</string>
+    <string name="buscar_espaconaves">Buscar ESPAÇONAVES</string>
+    <string name="home_title">ESCOLHER O LADO DA FORÇA, VOCÊ DEVERÁ…</string>
+    <string name="home_footer">Powered by: George Lucas</string>
+    <string name="header_description">Logo</string>
+    <string name="icon_list">Icon List</string>
 </resources>
