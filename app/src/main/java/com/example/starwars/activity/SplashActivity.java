@@ -9,6 +9,8 @@ import android.os.Looper;
 
 import com.example.starwars.databinding.ActivitySplashBinding;
 
+import java.util.Objects;
+
 public class SplashActivity extends AppCompatActivity {
 
   private ActivitySplashBinding binding;
@@ -18,7 +20,6 @@ public class SplashActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     binding = ActivitySplashBinding.inflate(getLayoutInflater());
     setContentView(binding.getRoot());
-    getSupportActionBar().hide();
 
     onRedirectHome();
   }
